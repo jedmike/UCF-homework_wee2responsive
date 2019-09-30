@@ -215,18 +215,22 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-.wrapper {
+wrapper {
   /* Box-model */
   width: 1024px;
-}
 
-@media screen and (max-width: 980px) 
+  /* Positioning */
+  margin: 40px auto; background-color: pink
+}
+/*background color should be tan!!!!!!!ugh
+@media screen and (max-width: 768px) {
 .container {
-  width: 50%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 350px;
   margin: 0 auto;
   clear: both;
+  background-color: tan;
+
 }
 
-@
   
