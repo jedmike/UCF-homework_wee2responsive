@@ -215,3 +215,18 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+}
+
+@media screen and (max-width: 980px) 
+.container {
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  clear: both;
+}
+
+@
+  
